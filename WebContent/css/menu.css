@@ -1,0 +1,67 @@
+body { background: #ffffff;
+	color: #000; font-size: 11px;
+	font-family: Verdana, sans-serif;
+	margin: 0; padding: 0;
+	text-align: center;
+	}
+
+#tudo {
+	background: #FFF;
+	border: #000 1px solid;
+	width: 750px;
+	margin: auto;
+	text-align: left;
+	}
+	
+#cabecalho { background: #ffffff; font-size: 18px; text-align: 
+        center; padding: 30px; }
+      
+ #menu {
+	background: #000;
+	height: 27px;
+	margin: 0; padding: 0;
+	}
+
+#menu ul {
+	margin: 0; padding: 0;
+	margin-left: 6px;
+	}
+
+#menu ul li {
+	display: inline;
+	}
+	
+#menu ul li a {
+	background: #444;
+	color: #FFF;
+	border: 1px #FFF solid;
+	border-bottom: 1px #000 solid;
+	float: left;
+	padding: 5px 7px;
+	margin: 2px;
+	text-decoration: none;
+	}
+	
+#menu ul li a:hover {
+	background: #FFF;
+	color: #F00;
+	border: #F00 1px solid;
+	border-bottom: none;
+	text-decoration: none;
+	}
+
+#conteudo {
+	clear: both;
+	font-size: 12px;
+	padding: 5px;
+	text-align: center;
+	}
+
+#rodape {
+	clear: both;
+	background: #000;
+	color: #FFF;
+	padding: 5px;
+	text-align: center;
+	}			
+	

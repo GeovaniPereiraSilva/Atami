@@ -1,0 +1,212 @@
+@media screen and (max-width: 1024px) {
+	#sf-error {
+		margin-top: 10 !important;
+		max-width: 430px !important;
+		width: auto !important;
+	}
+}
+
+.login {
+	position: relative;
+	top: 50px;
+	left:140px;
+}
+.login_corpo {
+	background-repeat:repeat-x;
+	height:213px;
+	width:586px;
+	display: block;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-293px;
+	margin-top:-123px;
+}
+.login_label {
+	font-size: 10px;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: right;
+}
+.login_label a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: right;
+}
+.login_label a:hover {
+	color: #CCCCCC;
+}
+.login_label a:visited {
+	color: #FFFFFF;
+}
+
+.login_field {
+	text-align: left;
+}
+.login_botao {
+	font-weight: bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	padding-top:2px;
+	padding-right:4px;
+	padding-bottom:2px;
+	padding-left:4px;
+	margin-left:1px;
+	margin-right:1px;
+	margin-top:2px;
+	border: 1px solid #00285D;
+	background-color:#FFFFFF;
+	color:#00285D;
+}
+.login_informacao {
+	text-align:center;
+	width:100%;
+	padding-top:14px;
+	position: relative;
+	top: 130px;
+}
+.login_informacao td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #1C482F;
+	text-align:center;
+	line-height:150%;
+	padding-top:8px;
+	padding-left:20px;
+	padding-right:20px;
+}
+.login_logo_sistema {
+	position:absolute;
+	left:10;
+	top: 51px;
+}
+.login_logo_cliente {
+	position:absolute;
+	left:50%;
+	margin-left: -97px;
+	top: 51px;
+}
+
+.fundo_esquerdo_login { 
+	background:url(../../images/login/esquerdo.png); 
+	height: 409px;
+}
+
+.fundo_direito_login { 
+	background:url(../../images/login/direita.png); 
+	width: 100%;
+	height: 409px;
+}
+.fundo_topo_login { 
+	background:url(../../images/login/topo.png); 
+	width: 100%;
+	height: 99px;
+}
+
+.sf-container-login {
+    background-color: #f3f3f3;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.sf-card-login {
+    background-color: #fff;
+    border-left: 5px solid #4CAF50;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,.15);
+    height: 400px;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -200px;
+    position: absolute;
+    top: 50%;
+    width: 350px;
+}
+
+.sf-card-login-invalido {
+	height: 545px;
+	margin-top: -272px;
+}
+
+.sf-logo-login {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	max-height: 90px;
+	width: 100%;
+}
+
+.sf-logo-login > img {
+	display: block;
+	margin: 0 auto;
+/* 	width: 100%; */
+	width: 220px;
+}
+
+.sf-campo-login {
+	padding: 10px 23px;
+    width: 85%;
+}
+
+.sf-campo-login > label {
+	color: #727272;
+	display: block;
+	float: left;
+	font-size: 15px;
+    margin-bottom: 5px;
+	width: 100%;
+}
+
+.sf-campo-login > input {
+	border: 1px solid #cacaca;
+	border-radius: 5px;
+	display: block;
+    font-size: 16px;
+	margin-top: 5px;
+	padding: 9px;
+	width: 94%;
+}
+
+.sf-campo-login > input:ACTIVE,
+.sf-campo-login > input:FOCUS {
+	border: 1px solid #4CAF50;
+}
+
+.sf-campo-login > input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+}
+
+.sf-campo-login > input[type="submit"]:HOVER {
+	background-color: #22AB27;
+}
+
+.sf-links-login a {
+	font-size: 12px;
+	color: #9E9E9E;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.sf-links-login a:HOVER {
+	color: #4CAF50;
+}
+
+#sf-error {
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 110px;
+    background-color: rgba(247,100,100,.1);
+    border-radius: 5px;
+    height: auto;
+    line-height: 40px;
+    border: 1px solid #FD5D5D;
+    color: red;
+}

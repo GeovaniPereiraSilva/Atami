@@ -1,0 +1,46 @@
+body {
+	font: normal 11px auto "Trebuchet MS", Verdana, Arial, Helvetica,
+		sans-serif;
+	color: #000000;
+	background: #ffffff;
+}
+
+.tile {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin: 0 5px 0 0;
+	padding: 2px;
+}
+
+.tileLargo {
+	width: 210px;
+}
+
+.amarelo {
+	background: #DAA520;
+}
+
+.vermelho {
+	background: #CD0000;
+}
+
+.azul {
+	background: #4682B4;
+}
+
+.verde {
+	background-color: #2E8B57;
+}
+
+.tile img {
+	width: 56px;
+	margin: 20px 22px 0 22px
+}
+
+.tileLargo img {
+	margin: 20px 77px 0 77px
+}
+.selecionado{
+     background-color: #483D8B;
+  }
